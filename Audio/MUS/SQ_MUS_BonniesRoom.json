@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "SQ_MUS_BonniesRoom",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "/f3819009-4a46-c799-db14-69bc7841bd20/Audio/MUS/SQ_MUS_BonniesRoom",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeWavePlayer'SQ_MUS_BonniesRoom:SoundNodeWavePlayer_0'",
+        "ObjectPath": "/f3819009-4a46-c799-db14-69bc7841bd20/Audio/MUS/SQ_MUS_BonniesRoom.1"
+      },
+      "AttenuationOverrides": {
+        "bEnableReverbSend": false,
+        "bEnableSendToAudioLink": false
+      },
+      "VirtualizationMode": "EVirtualizationMode::PlayWhenSilent",
+      "Duration": 10000.0,
+      "MaxDistance": 2097152.0
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'SQ_MUS_BonniesRoom'",
+      "ObjectPath": "/f3819009-4a46-c799-db14-69bc7841bd20/Audio/MUS/SQ_MUS_BonniesRoom.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/f3819009-4a46-c799-db14-69bc7841bd20/Audio/MUS/MUS_BonniesRoom.MUS_BonniesRoom",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'MUS_BonniesRoom'",
+      "ObjectPath": "/f3819009-4a46-c799-db14-69bc7841bd20/Audio/MUS/MUS_BonniesRoom.1"
+    }
+  }
+]
