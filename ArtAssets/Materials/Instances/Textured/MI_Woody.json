@@ -1,0 +1,116 @@
+{
+  "BlendMode": 0,
+  "ShadingModel": 0,
+  "Textures": {
+    "PM_Diffuse": {
+      "ObjectName": "Texture2D'T_Woody_BC'",
+      "ObjectPath": "/f3819009-4a46-c799-db14-69bc7841bd20/ArtAssets/Textures/Characters/T_Woody_BC.0"
+    },
+    "BaseColorTexture": {
+      "ObjectName": "Texture2D'T_Woody_BC'",
+      "ObjectPath": "/f3819009-4a46-c799-db14-69bc7841bd20/ArtAssets/Textures/Characters/T_Woody_BC.0"
+    },
+    "PM_SpecularMasks": {
+      "ObjectName": "Texture2D'T_Woody_ORM'",
+      "ObjectPath": "/f3819009-4a46-c799-db14-69bc7841bd20/ArtAssets/Textures/Characters/T_Woody_ORM.0"
+    },
+    "ORMETexture": {
+      "ObjectName": "Texture2D'T_Woody_ORM'",
+      "ObjectPath": "/f3819009-4a46-c799-db14-69bc7841bd20/ArtAssets/Textures/Characters/T_Woody_ORM.0"
+    },
+    "PM_Normals": {
+      "ObjectName": "Texture2D'T_Woody_N'",
+      "ObjectPath": "/f3819009-4a46-c799-db14-69bc7841bd20/ArtAssets/Textures/Characters/T_Woody_N.0"
+    },
+    "NormalTexture": {
+      "ObjectName": "Texture2D'T_Woody_N'",
+      "ObjectPath": "/f3819009-4a46-c799-db14-69bc7841bd20/ArtAssets/Textures/Characters/T_Woody_N.0"
+    }
+  },
+  "Colors": {
+    "ORMSAdd": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0,
+      "A": 0.5,
+      "Hex": "7F000000"
+    },
+    "ORMMultiply": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 0.0,
+      "Hex": "FFFFFF"
+    },
+    "BaseColorMultiplier": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "FFFFFF"
+    },
+    "EmissiveColor": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "FFFFFF"
+    },
+    "UVScaleRotation": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 0.0,
+      "Hex": "FFFFFF"
+    }
+  },
+  "Scalars": {
+    "OpacityMultiplier": 1.0,
+    "Anisotrophy": 0.0,
+    "EmissiveMultiplier": 0.0,
+    "NormalFlatness": 0.0,
+    "UseEmissiveBC": 0.0,
+    "ColorBlend": 0.0,
+    "EmissiveBCIntensity": 0.0,
+    "PulseCycleTime": 1.0,
+    "LowPulseIntensity": 0.0,
+    "UseBCColor": 0.0,
+    "RefractionDepthBias": 0.0
+  },
+  "Switches": {
+    "UseBCTexture": true,
+    "UseOpacityTexture": true,
+    "UseORMTexture": true,
+    "UseNormalTexture": true
+  },
+  "Properties": {
+    "DitherOpacityMask": true,
+    "bUseMaterialAttributes": true,
+    "StateId": "AF85AAE7-40F9E48F-CC7578B4-F7AE2C6A",
+    "ReferencedDefaultTextures": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "PhysMaterial": {
+      "ObjectName": "PhysicalMaterial'DefaultPhysicalMaterial'",
+      "ObjectPath": "/Engine/EngineMaterials/DefaultPhysicalMaterial.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "BasePropertyOverrides": {
+      "bOverride_TwoSided": true,
+      "bOverride_UsageFlags": 262273,
+      "TwoSided": true,
+      "OpacityMaskClipValue": 0.3333,
+      "UsageFlags": 4456577
+    }
+  },
+  "HasTopDiffuse": true,
+  "HasTopNormals": true,
+  "HasTopSpecularMasks": false,
+  "HasTopEmissive": false,
+  "IsTranslucent": false,
+  "IsNull": false
+}

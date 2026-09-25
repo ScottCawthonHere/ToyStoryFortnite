@@ -1,0 +1,134 @@
+{
+  "BlendMode": 2,
+  "ShadingModel": 0,
+  "Textures": {
+    "T_Hera_Sand_A_N": {
+      "ObjectName": "Texture2D'T_Hera_Sand_A_N'",
+      "ObjectPath": "/Hera/Terrain/Textures/T_Hera_Sand_A_N.0"
+    },
+    "PM_Diffuse": {
+      "ObjectName": "Texture2D'T_Hera_Sand_A_N'",
+      "ObjectPath": "/Hera/Terrain/Textures/T_Hera_Sand_A_N.0"
+    },
+    "BaseColorTexture": {
+      "AssetPathName": "/EpicBaseTextures/Blanks/T_Default_BaseColor_White.T_Default_BaseColor_White",
+      "SubPathString": ""
+    },
+    "PM_SpecularMasks": {
+      "AssetPathName": "/EpicBaseTextures/Blanks/T_Default_Masks_SpecRoughMetal.T_Default_Masks_SpecRoughMetal",
+      "SubPathString": ""
+    },
+    "ORMETexture": {
+      "AssetPathName": "/EpicBaseTextures/Blanks/T_Default_Masks_SpecRoughMetal.T_Default_Masks_SpecRoughMetal",
+      "SubPathString": ""
+    },
+    "PM_Normals": {
+      "AssetPathName": "/Hera/Terrain/Textures/T_Hera_Sand_A_N.T_Hera_Sand_A_N",
+      "SubPathString": ""
+    },
+    "NormalTexture": {
+      "AssetPathName": "/Hera/Terrain/Textures/T_Hera_Sand_A_N.T_Hera_Sand_A_N",
+      "SubPathString": ""
+    }
+  },
+  "Colors": {
+    "ORMSAdd": {
+      "R": 1.0,
+      "G": 0.1,
+      "B": 0.1,
+      "A": 1.0,
+      "Hex": "FF5959"
+    },
+    "ORMMultiply": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 0.0,
+      "Hex": "FFFFFF"
+    },
+    "BaseColorMultiplierInterior": {
+      "R": 0.362488,
+      "G": 0.99618,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "A2FFFF"
+    },
+    "EmissiveColor": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "FFFFFF"
+    },
+    "UVScaleRotation": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 0.0,
+      "Hex": "FFFFFF"
+    },
+    "BaseColorMultiplierExterior": {
+      "R": 0.0,
+      "G": 0.439834,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "00B1FF"
+    },
+    "BaseColorMultiplier": {
+      "R": 0.9,
+      "G": 1.0,
+      "B": 0.98,
+      "A": 1.0,
+      "Hex": "F4FFFD"
+    }
+  },
+  "Scalars": {
+    "OpacityMultiplier": 0.05,
+    "Anisotrophy": 0.0,
+    "EmissiveMultiplier": 0.0,
+    "NormalFlatness": 0.0,
+    "IORMax": 1.001,
+    "IORMin": 1.0,
+    "FresnelExponent": 5.0,
+    "InteriorOpacity": 0.0,
+    "ExteriorOpacity": 1.0,
+    "RefractionDepthBias": 0.0
+  },
+  "Switches": {
+    "UseNormalTexture": false
+  },
+  "Properties": {
+    "TwoSided": true,
+    "TranslucencyLightingMode": "ETranslucencyLightingMode::TLM_SurfacePerPixelLighting",
+    "bUsesDistortion": true,
+    "bUseMaterialAttributes": true,
+    "bUseTranslucencyVertexFog": false,
+    "RefractionMethod": "ERefractionMode::RM_IndexOfRefraction",
+    "StateId": "8F111EEE-42A4A898-FF1D2490-A843142A",
+    "ReferencedDefaultTextures": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "PhysMaterial": {
+      "ObjectName": "PhysicalMaterial'DefaultPhysicalMaterial'",
+      "ObjectPath": "/Engine/EngineMaterials/DefaultPhysicalMaterial.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "BasePropertyOverrides": {
+      "bOverride_UsageFlags": 266369,
+      "TwoSided": true,
+      "BlendMode": "EBlendMode::BLEND_TranslucentGreyTransmittance",
+      "OpacityMaskClipValue": 0.3333,
+      "UsageFlags": 4460673
+    }
+  },
+  "HasTopDiffuse": true,
+  "HasTopNormals": true,
+  "HasTopSpecularMasks": false,
+  "HasTopEmissive": false,
+  "IsTranslucent": true,
+  "IsNull": false
+}

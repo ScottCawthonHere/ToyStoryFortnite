@@ -1,0 +1,137 @@
+{
+  "BlendMode": 2,
+  "ShadingModel": 0,
+  "Textures": {
+    "T_Hera_Sand_A_N": {
+      "ObjectName": "Texture2D'T_Hera_Sand_A_N'",
+      "ObjectPath": "/Hera/Terrain/Textures/T_Hera_Sand_A_N.0"
+    },
+    "PM_Diffuse": {
+      "ObjectName": "Texture2D'T_Clouds_Noise_D'",
+      "ObjectPath": "/EpicBaseTextures/Noises/T_Clouds_Noise_D.0"
+    },
+    "BaseColorTexture": {
+      "ObjectName": "Texture2D'T_Clouds_Noise_D'",
+      "ObjectPath": "/EpicBaseTextures/Noises/T_Clouds_Noise_D.0"
+    },
+    "PM_SpecularMasks": {
+      "AssetPathName": "/EpicBaseTextures/Blanks/T_Default_Masks_SpecRoughMetal.T_Default_Masks_SpecRoughMetal",
+      "SubPathString": ""
+    },
+    "ORMETexture": {
+      "AssetPathName": "/EpicBaseTextures/Blanks/T_Default_Masks_SpecRoughMetal.T_Default_Masks_SpecRoughMetal",
+      "SubPathString": ""
+    },
+    "PM_Normals": {
+      "ObjectName": "Texture2D'T_Apollo_Cliff_N_02'",
+      "ObjectPath": "/Game/Environments/Apollo/Sets/Terrain/Textures/T_Apollo_Cliff_N_02.0"
+    },
+    "NormalTexture": {
+      "ObjectName": "Texture2D'T_Apollo_Cliff_N_02'",
+      "ObjectPath": "/Game/Environments/Apollo/Sets/Terrain/Textures/T_Apollo_Cliff_N_02.0"
+    }
+  },
+  "Colors": {
+    "ORMSAdd": {
+      "R": 106916.16,
+      "G": 0.25,
+      "B": 0.0,
+      "A": 0.5,
+      "Hex": "7FFF8900"
+    },
+    "ORMMultiply": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 0.0,
+      "Hex": "FFFFFF"
+    },
+    "BaseColorMultiplierInterior": {
+      "R": 0.362488,
+      "G": 0.99618,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "A2FFFF"
+    },
+    "EmissiveColor": {
+      "R": 0.239583,
+      "G": 0.383541,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "86A7FF"
+    },
+    "UVScaleRotation": {
+      "R": 5.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 0.0,
+      "Hex": "FFFFFF"
+    },
+    "BaseColorMultiplierExterior": {
+      "R": 0.0,
+      "G": 0.439834,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "00B1FF"
+    },
+    "BaseColorMultiplier": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0,
+      "A": 1.0,
+      "Hex": "000000"
+    }
+  },
+  "Scalars": {
+    "OpacityMultiplier": 0.45,
+    "Anisotrophy": 0.0,
+    "EmissiveMultiplier": 0.15,
+    "NormalFlatness": -2.0,
+    "IORMax": 1.02,
+    "IORMin": 0.99,
+    "FresnelExponent": 3.0,
+    "InteriorOpacity": 0.8,
+    "ExteriorOpacity": 0.45,
+    "RefractionDepthBias": 0.0
+  },
+  "Switches": {
+    "UseBCTexture": true,
+    "UseFresnelOpacity": true,
+    "UseEmissiveTexture": false,
+    "UseNormalTexture": true
+  },
+  "Properties": {
+    "TwoSided": true,
+    "TranslucencyLightingMode": "ETranslucencyLightingMode::TLM_SurfacePerPixelLighting",
+    "bUsesDistortion": true,
+    "bUseMaterialAttributes": true,
+    "bUseTranslucencyVertexFog": false,
+    "RefractionMethod": "ERefractionMode::RM_IndexOfRefraction",
+    "StateId": "8F111EEE-42A4A898-FF1D2490-A843142A",
+    "ReferencedDefaultTextures": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "PhysMaterial": {
+      "ObjectName": "PhysicalMaterial'DefaultPhysicalMaterial'",
+      "ObjectPath": "/Engine/EngineMaterials/DefaultPhysicalMaterial.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "BasePropertyOverrides": {
+      "bOverride_TwoSided": true,
+      "bOverride_UsageFlags": 262273,
+      "BlendMode": "EBlendMode::BLEND_TranslucentGreyTransmittance",
+      "OpacityMaskClipValue": 0.3333,
+      "UsageFlags": 4456577
+    }
+  },
+  "HasTopDiffuse": true,
+  "HasTopNormals": true,
+  "HasTopSpecularMasks": false,
+  "HasTopEmissive": false,
+  "IsTranslucent": true,
+  "IsNull": false
+}
